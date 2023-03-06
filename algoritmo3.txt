@@ -1,0 +1,20 @@
+Algoritmo de cálculo de média: um algoritmo que calcula a média de uma lista de números. 
+
+var
+
+escreva("Digite a quantidade de numeros que o programa irá ter")
+leia(n)
+
+
+soma = 0
+
+para i=0 a n-1 faca 
+leia(x)
+soma = soma+x
+fimpara
+
+media=soma/n
+
+escreva("Media = ", media)
+
+fim
